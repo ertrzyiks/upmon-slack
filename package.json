@@ -22,6 +22,9 @@
   },
   "author": "",
   "license": "MIT",
+  "bin": {
+    "upmon-slack": "bin/upmon-slack.js"
+  },
   "bugs": {
     "url": "https://github.com/ertrzyiks/upmon-slack/issues"
   },
