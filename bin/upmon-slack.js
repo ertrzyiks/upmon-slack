@@ -1,2 +1,3 @@
-var upominSlack = require('.,/')
-process.stdin.pipe(upominSlack()).pipe(process.stdout)
+#!/usr/bin/env node
+var upminSlack = require('../')
+process.stdin.pipe(upminSlack()).pipe(process.stdout)

@@ -1,12 +1,13 @@
 {
-  "name": "upomon-slack",
+  "name": "upmon-slack",
   "version": "0.0.1",
   "description": "Send a Slack notification when upmon detects a failure.",
   "main": "index.js",
   "bin": {
-    "upomon-slack": "index.js"
+    "upmon-slack": "bin/upmon-slack.js"
   },
   "dependencies": {
+    "ndjson": "^1.5.0",
     "rc": "^1.1.6",
     "stream-combiner2": "^1.1.1",
     "through2": "^2.0.3",
@@ -22,9 +23,6 @@
   },
   "author": "",
   "license": "MIT",
-  "bin": {
-    "upmon-slack": "bin/upmon-slack.js"
-  },
   "bugs": {
     "url": "https://github.com/ertrzyiks/upmon-slack/issues"
   },
