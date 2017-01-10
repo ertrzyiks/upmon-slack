@@ -1,0 +1,29 @@
+{
+  "name": "upomon-slack",
+  "version": "0.0.1",
+  "description": "Send a Slack notification when upmon detects a failure.",
+  "main": "index.js",
+  "bin": {
+    "upomon-slack": "index.js"
+  },
+  "dependencies": {
+    "rc": "^1.1.6",
+    "stream-combiner2": "^1.1.1",
+    "through2": "^2.0.3",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ertrzyiks/upmon-slack.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ertrzyiks/upmon-slack/issues"
+  },
+  "homepage": "https://github.com/ertrzyiks/upmon-slack#readme"
+}
