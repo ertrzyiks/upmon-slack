@@ -1,4 +1,4 @@
-# upomon-slack
+# upmon-slack
 
 Send a Slack notification when [upmon](https://github.com/alanshaw/upmon) detects a failure.
 
